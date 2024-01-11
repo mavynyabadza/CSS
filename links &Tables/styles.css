@@ -1,4 +1,39 @@
-.text{
-    color: blue
-    background-color: red;
+.text {
+    color: brown;
+    background-color: black;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.paragraph {
+    text-decoration: underline blueviolet line-through;
+    text-transform: capitalize;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    word-spacing: normal;
+    w
+   
+}
+.paragraph span{
+    text-decoration: line-through;
+}
+.lists {
+    list-style-type: lower-greek;
+    margin-top: 5px;
+}
+table, th, td{
+    border: 1px solid black;
+    width: 20%;
+    border-collapse: collapse;
+}
+th {
+    height: 50px;
+}
+td {
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+td:hover{
+    background-color: blanchedalmond;
 }
