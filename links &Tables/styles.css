@@ -37,3 +37,6 @@ td {
 td:hover{
     background-color: blanchedalmond;
 }
+tr:nth-child(even) {
+    background-color: brown;
+}
